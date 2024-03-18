@@ -1,0 +1,7 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 5, in <module>
+    import braceexpand
+srun: error: GPU15: task 0: Exited with exit code 1
+ModuleNotFoundError: No module named 'braceexpand'

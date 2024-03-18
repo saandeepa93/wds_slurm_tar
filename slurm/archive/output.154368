@@ -1,0 +1,15 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+/data/saandeepaath/create_bp4d_chips/./face_alignment/mtcnn_pytorch/src/align_trans.py:287: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if align_type is 'cv2_affine':
+/data/saandeepaath/create_bp4d_chips/./face_alignment/mtcnn_pytorch/src/align_trans.py:290: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif align_type is 'affine':
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 25, in <module>
+    from configs import get_cfg_defaults
+  File "/data/saandeepaath/create_bp4d_chips/./configs/__init__.py", line 1, in <module>
+    from .config import get_cfg_defaults
+  File "/data/saandeepaath/create_bp4d_chips/./configs/config.py", line 1, in <module>
+    from yacs.config import CfgNode as CN
+ModuleNotFoundError: No module named 'yacs'
+srun: error: GPU15: task 0: Exited with exit code 1

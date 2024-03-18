@@ -1,0 +1,4 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+/home/s/saandeepaath/.conda/envs/webds/bin/python: can't open file '/data/saandeepaath/create_bp4d_chips/./trained/extract_chips.py': [Errno 2] No such file or directory
+srun: error: GPU13: task 0: Exited with exit code 2

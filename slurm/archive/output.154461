@@ -1,0 +1,40 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_wds.py", line 180, in <module>
+    for b, (video, meta, fnames) in enumerate(train_loader):
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/pipeline.py", line 70, in iterator
+    yield from self.iterator1()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 487, in _batched
+    for sample in data:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 517, in _unbatched
+    for sample in data:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/_utils.py", line 722, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 41, in fetch
+    data = next(self.dataset_iter)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/pipeline.py", line 70, in iterator
+    yield from self.iterator1()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 397, in _to_tuple
+    for sample in data:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 306, in _map
+    if handler(exn):
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 86, in reraise_exception
+    raise exn
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 304, in _map
+    result = f(sample)
+TypeError: preprocess() got an unexpected keyword argument 'openface'
+
+srun: error: GPU15: task 0: Exited with exit code 1

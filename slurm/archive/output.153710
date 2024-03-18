@@ -1,0 +1,4 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+ic| frame_dict: []
+GPU:  False

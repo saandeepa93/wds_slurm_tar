@@ -1,0 +1,14 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 189, in <module>
+    torch.classes.load_library(lib_path)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/_classes.py", line 51, in load_library
+    torch.ops.load_library(path)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/_ops.py", line 933, in load_library
+    ctypes.CDLL(path)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/ctypes/__init__.py", line 382, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: /data/saandeepaath/TorchOpenFace/build/lib/TorchFace/libTorchFace.so: undefined symbol: _ZN3c106ivalue14ConstantString6createENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+srun: error: GPU15: task 0: Exited with exit code 1

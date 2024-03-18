@@ -1,0 +1,1 @@
+ sinfo -o "%P %N %t %G" -t idle

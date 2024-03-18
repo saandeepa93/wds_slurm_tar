@@ -1,0 +1,46 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+Could not find the landmark detection model to load
+Could not find the landmark detection model to load
+Reading the landmark detector/tracker from: model/main_ceclm_general.txt
+Couldn't open the model file, aborting
+Could not find the HAAR face detector location
+Reading the MTCNN face detector from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/MTCNN_detector.txt
+Reading the PNet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/PNet.dat
+Reading the RNet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/RNet.dat
+Reading the ONet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/ONet.dat
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/main_ceclm_general.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/cen_general.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/pdms/In-the-wild_aligned_PDM_68.txt....Done
+Reading the Triangulations module from: /data/saandeepaath/TorchOpenFace/./models/model/tris_68.txt....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.25_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.35_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.50_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_1.00_of.dat....Done
+Reading part based module....left_eye_28
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/main_clnf_synth_left.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/clnf_left_synth.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/pdms/pdm_28_l_eye_3D_closed.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/left_ccnf_patches_1.00_synth_lid_.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/left_ccnf_patches_1.50_synth_lid_.txt....Done
+Could not find the HAAR face detector location
+Could not find the MTCNN face detector location
+Done
+Reading part based module....right_eye_28
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/main_clnf_synth_right.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/clnf_right_synth.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/pdms/pdm_28_eye_3D_closed.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/ccnf_patches_1.00_synth_lid_.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/ccnf_patches_1.50_synth_lid_.txt....Done
+Could not find the HAAR face detector location
+Could not find the MTCNN face detector location
+Done
+Reading the landmark validation module....Done
+Reading the AU analysis module from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/main_static_svms.txt
+Reading the AU predictors from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/AU_all_static.txt... Done
+Reading the PDM from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/In-the-wild_aligned_PDM_68.txt... Done
+Reading the triangulation from:/data/saandeepaath/TorchOpenFace/models/AU_predictors/tris_68_full.txt... Done
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]ic| video.size(): torch.Size([1, 3, 1485, 112, 112])
+    meta: ['F017_T7']
+  0%|          | 0/1 [03:17<?, ?it/s]

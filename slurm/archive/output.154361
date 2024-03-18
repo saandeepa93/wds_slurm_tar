@@ -1,0 +1,15 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 185, in <module>
+    for video, meta, fnames in train_loader:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/pipeline.py", line 70, in iterator
+    yield from self.iterator1()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 490, in _batched
+    batch = collation_fn(batch)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 461, in default_collation_fn
+    b = torch.stack(list(b))
+RuntimeError: stack expects each tensor to be equal size, but got [3, 1485, 112, 112] at entry 0 and [3, 1597, 112, 112] at entry 1
+srun: error: GPU15: task 0: Exited with exit code 1

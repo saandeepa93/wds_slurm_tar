@@ -1,0 +1,10 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 27, in <module>
+    mkdir(ckp_path)
+  File "/data/saandeepaath/create_bp4d_chips/./utils.py", line 60, in mkdir
+    os.mkdir(path)
+FileNotFoundError: [Errno 2] No such file or directory: './checkpoints/bp4d_1'
+srun: error: GPU13: task 0: Exited with exit code 1

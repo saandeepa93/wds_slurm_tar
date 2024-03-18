@@ -1,0 +1,11 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+ic| df.head():    face frame_name  confidence  gaze_0_x  ...  AU25_c  AU26_c  AU28_c  AU45_c
+               0     0      0.jpg       0.975  0.208920  ...     1.0     0.0     0.0     0.0
+               1     0      1.jpg       0.875  0.252094  ...     1.0     0.0     0.0     0.0
+               2     0      2.jpg       0.975  0.222004  ...     0.0     0.0     0.0     0.0
+               3     0      3.jpg       0.975  0.225653  ...     1.0     0.0     0.0     0.0
+               4     0      4.jpg       0.975  0.222234  ...     0.0     0.0     0.0     0.0
+               
+               [5 rows x 712 columns]
+GPU:  True

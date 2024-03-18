@@ -1,0 +1,27 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  False
+Creating tars...:   0%|          | 0/325 [00:00<?, ?it/s]Subject: F017_T7:   0%|          | 0/325 [05:52<?, ?it/s]Subject: F017_T7:   0%|          | 1/325 [05:52<31:44:10, 352.63s/it]Subject: M007_T2:   0%|          | 1/325 [19:24<31:44:10, 352.63s/it]Subject: M007_T2:   1%|          | 2/325 [19:25<55:54:11, 623.07s/it]Subject: M007_T2:   1%|          | 2/325 [23:19<62:46:10, 699.60s/it]
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 42, in <module>
+    for b, (video, subject_task) in enumerate(pbar):
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 80, in __getitem__
+    images = self._loadFrames(fpaths)
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 53, in _loadFrames
+    image = Image.open(fpath).convert('RGB')
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/PIL/Image.py", line 922, in convert
+    self.load()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/PIL/ImageFile.py", line 288, in load
+    raise OSError(msg)
+OSError: image file is truncated (57 bytes not processed)
+srun: error: GPU15: task 0: Exited with exit code 1

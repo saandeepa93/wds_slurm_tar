@@ -1,0 +1,5 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+Creating tars...:   0%|          | 0/325 [00:00<?, ?it/s]ic| subject_task[0]: 'F017_T7'
+Creating tars...:   0%|          | 0/325 [05:54<?, ?it/s]

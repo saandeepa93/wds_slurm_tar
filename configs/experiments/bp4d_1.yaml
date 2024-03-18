@@ -1,0 +1,8 @@
+PATHS:
+  ROOT: /data/scanavan/BP4D/Sequences
+  PROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/pickles
+  TARROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/tars
+
+DATASET:
+  IMG_SIZE: 112
+  NUM_WORKERS: 1

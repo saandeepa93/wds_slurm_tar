@@ -1,0 +1,9 @@
+NODELIST=GPU22
+MASTER_ADDR=GPU22
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/playground.py", line 3, in <module>
+    from imports import * 
+  File "/data/saandeepaath/create_bp4d_chips/imports.py", line 2, in <module>
+    from icecream import ic 
+ModuleNotFoundError: No module named 'icecream'
+srun: error: GPU22: task 0: Exited with exit code 1

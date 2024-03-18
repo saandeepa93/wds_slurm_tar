@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./playground.py", line 39, in <module>
+    pickle.dump(img_lst, f, pickle.HIGHEST_PROTOCOL)
+OSError: [Errno 116] Stale file handle
+srun: error: GPU13: task 0: Exited with exit code 1

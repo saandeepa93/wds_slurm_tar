@@ -1,0 +1,34 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+F017_T7
+F017_T7
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1133, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/multiprocessing/queues.py", line 114, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 184, in <module>
+    for video, meta in train_loader:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/pipeline.py", line 70, in iterator
+    yield from self.iterator1()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 487, in _batched
+    for sample in data:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/webdataset/filters.py", line 517, in _unbatched
+    for sample in data:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1329, in _next_data
+    idx, data = self._get_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1295, in _get_data
+    success, data = self._try_get_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1146, in _try_get_data
+    raise RuntimeError(f'DataLoader worker (pid(s) {pids_str}) exited unexpectedly') from e
+RuntimeError: DataLoader worker (pid(s) 233951) exited unexpectedly
+srun: error: GPU15: task 0: Exited with exit code 1

@@ -1,0 +1,8 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_wds.py", line 171, in <module>
+    openface_dict = getOpenfaceDict(cfg, "train")
+TypeError: getOpenfaceDict() takes 1 positional argument but 2 were given
+srun: error: GPU15: task 0: Exited with exit code 1

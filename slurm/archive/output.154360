@@ -1,0 +1,15 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]ic| video.size(): torch.Size([2, 3, 10, 112, 112])
+    meta: ['F017_T7', 'M007_T2']
+ic| video.size(): torch.Size([2, 3, 10, 112, 112])
+    meta: ['F009_T2', 'F013_T5']
+ic| video.size(): torch.Size([2, 3, 10, 112, 112])
+    meta: ['F005_T4', 'M011_T3']
+ic| video.size(): torch.Size([2, 3, 10, 112, 112])
+    meta: ['F012_T8', 'F001_T6']
+ic| video.size(): torch.Size([2, 3, 10, 112, 112])
+    meta: ['M015_T1', 'F021_T2']
+ic| video.size(): torch.Size([1, 3, 10, 112, 112]), meta: ['F008_T2']
+  0%|          | 0/1 [00:04<?, ?it/s]

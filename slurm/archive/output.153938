@@ -1,0 +1,11 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  False
+Creating tars...:   0%|          | 0/325 [00:00<?, ?it/s]Creating tars...:   0%|          | 0/325 [10:30<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 48, in <module>
+    pbar.set_postfix(subject_task[0])
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/tqdm/std.py", line 1415, in set_postfix
+    postfix = OrderedDict([] if ordered_dict is None else ordered_dict)
+ValueError: need more than 1 value to unpack
+srun: error: GPU15: task 0: Exited with exit code 1

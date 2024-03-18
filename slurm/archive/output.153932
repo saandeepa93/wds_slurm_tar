@@ -1,0 +1,16 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 33, in <module>
+    cfg.merge_from_file(config_path)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/yacs/config.py", line 213, in merge_from_file
+    self.merge_from_other_cfg(cfg)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/yacs/config.py", line 217, in merge_from_other_cfg
+    _merge_a_into_b(cfg_other, self, self, [])
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/yacs/config.py", line 478, in _merge_a_into_b
+    _merge_a_into_b(v, b[k], root, key_list + [k])
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/yacs/config.py", line 491, in _merge_a_into_b
+    raise KeyError("Non-existent config key: {}".format(full_key))
+KeyError: 'Non-existent config key: PATHS.TARROOT'
+srun: error: GPU13: task 0: Exited with exit code 1

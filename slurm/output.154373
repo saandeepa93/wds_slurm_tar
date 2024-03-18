@@ -1,0 +1,696 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+Could not find the landmark detection model to load
+Could not find the landmark detection model to load
+Reading the landmark detector/tracker from: model/main_ceclm_general.txt
+Couldn't open the model file, aborting
+Could not find the HAAR face detector location
+Reading the MTCNN face detector from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/MTCNN_detector.txt
+Reading the PNet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/PNet.dat
+Reading the RNet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/RNet.dat
+Reading the ONet module from: /data/saandeepaath/TorchOpenFace/models/model/mtcnn_detector/ONet.dat
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/main_ceclm_general.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/cen_general.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/pdms/In-the-wild_aligned_PDM_68.txt....Done
+Reading the Triangulations module from: /data/saandeepaath/TorchOpenFace/./models/model/tris_68.txt....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.25_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.35_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_0.50_of.dat....Done
+Reading the intensity CEN patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/patch_experts/cen_patches_1.00_of.dat....Done
+Reading part based module....left_eye_28
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/main_clnf_synth_left.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/clnf_left_synth.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/pdms/pdm_28_l_eye_3D_closed.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/left_ccnf_patches_1.00_synth_lid_.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/left_ccnf_patches_1.50_synth_lid_.txt....Done
+Could not find the HAAR face detector location
+Could not find the MTCNN face detector location
+Done
+Reading part based module....right_eye_28
+Reading the landmark detector/tracker from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/main_clnf_synth_right.txt
+Reading the landmark detector module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/clnf_right_synth.txt
+Reading the PDM module from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/pdms/pdm_28_eye_3D_closed.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/ccnf_patches_1.00_synth_lid_.txt....Done
+Reading the intensity CCNF patch experts from: /data/saandeepaath/TorchOpenFace/./models/model/model_eye/patch_experts/ccnf_patches_1.50_synth_lid_.txt....Done
+Could not find the HAAR face detector location
+Could not find the MTCNN face detector location
+Done
+Reading the landmark validation module....Done
+Reading the AU analysis module from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/main_static_svms.txt
+Reading the AU predictors from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/AU_all_static.txt... Done
+Reading the PDM from: /data/saandeepaath/TorchOpenFace/models/AU_predictors/In-the-wild_aligned_PDM_68.txt... Done
+Reading the triangulation from:/data/saandeepaath/TorchOpenFace/models/AU_predictors/tris_68_full.txt... Done
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]
+extracting OpenFace...: 0it [00:00, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s]
+
+Subject_Task: F017_T7: : 0it [00:01, ?it/s][A
+Subject_Task: F017_T7: : 1it [02:43, 163.55s/it][A
+Subject_Task: M007_T2: : 1it [02:43, 163.55s/it][A
+Subject_Task: M007_T2: : 2it [06:15, 191.89s/it][A
+Subject_Task: F009_T2: : 2it [06:15, 191.89s/it][A
+Subject_Task: F009_T2: : 3it [09:50, 202.70s/it][A
+Subject_Task: F013_T5: : 3it [09:50, 202.70s/it][A
+Subject_Task: F013_T5: : 4it [13:24, 206.96s/it][A
+Subject_Task: F005_T4: : 4it [13:24, 206.96s/it][A
+Subject_Task: F005_T4: : 5it [17:31, 221.58s/it][A
+Subject_Task: M011_T3: : 5it [17:31, 221.58s/it][A
+Subject_Task: M011_T3: : 6it [18:09, 159.17s/it][A
+Subject_Task: F012_T8: : 6it [18:09, 159.17s/it][A
+Subject_Task: F012_T8: : 7it [18:37, 116.25s/it][A
+Subject_Task: F001_T6: : 7it [18:37, 116.25s/it][A
+Subject_Task: F001_T6: : 8it [19:42, 99.73s/it] [A
+Subject_Task: M015_T1: : 8it [19:42, 99.73s/it][A
+Subject_Task: M015_T1: : 9it [23:05, 132.19s/it][A
+Subject_Task: F021_T2: : 9it [23:05, 132.19s/it][A
+Subject_Task: F021_T2: : 10it [26:20, 151.52s/it][A
+Subject_Task: F008_T2: : 10it [26:20, 151.52s/it][A
+Subject_Task: F008_T2: : 11it [29:56, 171.11s/it][A
+Subject_Task: M006_T2: : 11it [29:56, 171.11s/it][A
+Subject_Task: M006_T2: : 12it [32:05, 158.44s/it][A
+Subject_Task: F012_T5: : 12it [32:05, 158.44s/it][A
+Subject_Task: F012_T5: : 13it [34:21, 151.75s/it][A
+Subject_Task: M018_T7: : 13it [34:21, 151.75s/it][A
+Subject_Task: M018_T7: : 14it [38:29, 180.84s/it][A
+Subject_Task: F016_T7: : 14it [38:29, 180.84s/it][A
+Subject_Task: F016_T7: : 15it [41:32, 181.52s/it][A
+Subject_Task: M014_T1: : 15it [41:33, 181.52s/it][A
+Subject_Task: M014_T1: : 16it [43:19, 159.01s/it][A
+Subject_Task: F013_T8: : 16it [43:19, 159.01s/it][A
+Subject_Task: F013_T8: : 17it [43:36, 116.31s/it][A
+Subject_Task: F004_T4: : 17it [43:36, 116.31s/it][A
+Subject_Task: F004_T4: : 18it [46:46, 138.47s/it][A
+Subject_Task: M010_T3: : 18it [46:46, 138.47s/it][A
+Subject_Task: M010_T3: : 19it [47:27, 109.05s/it][A
+Subject_Task: F020_T2: : 19it [47:27, 109.05s/it][A
+Subject_Task: F020_T2: : 20it [50:39, 134.15s/it][A
+Subject_Task: F010_T8: : 20it [50:39, 134.15s/it][A
+Subject_Task: F010_T8: : 21it [51:05, 101.45s/it][A
+Subject_Task: F019_T1: : 21it [51:05, 101.45s/it][A
+Subject_Task: F019_T1: : 22it [51:06, 71.51s/it] [A
+Subject_Task: M017_T1: : 22it [51:06, 71.51s/it][A
+Subject_Task: M017_T1: : 23it [52:43, 79.05s/it][A
+Subject_Task: F003_T6: : 23it [52:43, 79.05s/it][A
+Subject_Task: F003_T6: : 24it [53:10, 63.43s/it][A
+Subject_Task: M013_T3: : 24it [53:10, 63.43s/it][A
+Subject_Task: M013_T3: : 25it [53:49, 56.20s/it][A
+Subject_Task: M009_T4: : 25it [53:49, 56.20s/it][A
+Subject_Task: M009_T4: : 26it [55:58, 77.96s/it][A
+Subject_Task: F007_T4: : 26it [55:58, 77.96s/it][A
+Subject_Task: F007_T4: : 27it [59:32, 118.72s/it][A
+Subject_Task: F011_T5: : 27it [59:32, 118.72s/it][A
+Subject_Task: F011_T5: : 28it [1:01:55, 126.13s/it][A
+Subject_Task: M005_T2: : 28it [1:01:55, 126.13s/it][A
+Subject_Task: M005_T2: : 29it [1:05:25, 151.30s/it][A
+Subject_Task: F015_T7: : 29it [1:05:25, 151.30s/it][A
+Subject_Task: F015_T7: : 30it [1:08:37, 163.35s/it][A
+Subject_Task: F023_T2: : 30it [1:08:37, 163.35s/it][A
+Subject_Task: F023_T2: : 31it [1:12:03, 176.10s/it][A
+Subject_Task: M012_T3: : 31it [1:12:03, 176.10s/it][A
+Subject_Task: M012_T3: : 32it [1:12:43, 135.24s/it][A
+Subject_Task: F006_T4: : 32it [1:12:43, 135.24s/it][A
+Subject_Task: F006_T4: : 33it [1:15:28, 144.34s/it][A
+Subject_Task: M008_T4: : 33it [1:15:28, 144.34s/it][A
+Subject_Task: M008_T4: : 34it [1:19:20, 170.51s/it][A
+Subject_Task: M016_T1: : 34it [1:19:20, 170.51s/it][A
+Subject_Task: M016_T1: : 35it [1:22:53, 183.23s/it][A
+Subject_Task: F018_T1: : 35it [1:22:53, 183.23s/it][A
+Subject_Task: F018_T1: : 36it [1:25:12, 170.17s/it][A
+Subject_Task: F002_T6: : 36it [1:25:12, 170.17s/it][A
+Subject_Task: F002_T6: : 37it [1:28:20, 175.42s/it][A
+Subject_Task: F011_T8: : 37it [1:28:20, 175.42s/it][A
+Subject_Task: F011_T8: : 38it [1:29:09, 137.50s/it][A
+Subject_Task: F014_T7: : 38it [1:29:09, 137.50s/it][A
+Subject_Task: F014_T7: : 39it [1:31:47, 143.71s/it][A
+Subject_Task: F010_T5: : 39it [1:31:47, 143.71s/it][A
+Subject_Task: F010_T5: : 40it [1:33:00, 122.31s/it][A
+Subject_Task: M004_T2: : 40it [1:33:00, 122.31s/it][A
+Subject_Task: M004_T2: : 41it [1:36:12, 143.27s/it][A
+Subject_Task: F022_T2: : 41it [1:36:12, 143.27s/it][A
+Subject_Task: F022_T2: : 42it [1:39:25, 158.23s/it][A
+Subject_Task: F001_T4: : 42it [1:39:25, 158.23s/it][A
+Subject_Task: F001_T4: : 43it [1:43:46, 188.96s/it][A
+Subject_Task: M015_T3: : 43it [1:43:46, 188.96s/it][A
+Subject_Task: M015_T3: : 44it [1:44:34, 146.82s/it][A
+Subject_Task: F005_T6: : 44it [1:44:34, 146.82s/it][A
+Subject_Task: F005_T6: : 45it [1:46:43, 141.45s/it][A
+Subject_Task: M011_T1: : 45it [1:46:43, 141.45s/it][A
+Subject_Task: M011_T1: : 46it [1:49:44, 153.26s/it][A
+Subject_Task: M018_T8: : 46it [1:49:44, 153.26s/it][A
+Subject_Task: M018_T8: : 47it [1:50:10, 115.03s/it][A
+Subject_Task: F016_T8: : 47it [1:50:10, 115.03s/it][A
+Subject_Task: F016_T8: : 48it [1:50:44, 90.74s/it] [A
+Subject_Task: F013_T7: : 48it [1:50:44, 90.74s/it][A
+Subject_Task: F013_T7: : 49it [1:55:19, 146.21s/it][A
+Subject_Task: M003_T2: : 49it [1:55:19, 146.21s/it][A
+Subject_Task: M003_T2: : 50it [1:57:12, 136.20s/it][A
+Subject_Task: F017_T5: : 50it [1:57:12, 136.20s/it][A
+Subject_Task: F017_T5: : 51it [2:00:07, 147.76s/it][A
+Subject_Task: F017_T8: : 51it [2:00:07, 147.76s/it][A
+Subject_Task: F017_T8: : 52it [2:00:42, 113.84s/it][A
+Subject_Task: F004_T6: : 52it [2:00:42, 113.84s/it][A
+Subject_Task: F004_T6: : 53it [2:04:52, 154.81s/it][A
+Subject_Task: M010_T1: : 53it [2:04:52, 154.81s/it][A
+Subject_Task: M010_T1: : 54it [2:06:40, 140.92s/it][A
+Subject_Task: M014_T3: : 54it [2:06:41, 140.92s/it][A
+Subject_Task: M014_T3: : 55it [2:07:45, 117.98s/it][A
+Subject_Task: M002_T2: : 55it [2:07:45, 117.98s/it][A
+Subject_Task: M002_T2: : 56it [2:13:20, 183.24s/it][A
+Subject_Task: F016_T5: : 56it [2:13:21, 183.24s/it][A
+Subject_Task: F016_T5: : 57it [2:17:31, 203.35s/it][A
+Subject_Task: M018_T5: : 57it [2:17:31, 203.35s/it][A
+Subject_Task: M018_T5: : 58it [2:21:50, 220.27s/it][A
+Subject_Task: F012_T7: : 58it [2:21:51, 220.27s/it][A
+Subject_Task: F012_T7: : 59it [2:26:11, 232.48s/it][A
+Subject_Task: F015_T5: : 59it [2:26:12, 232.48s/it][A
+Subject_Task: F015_T5: : 60it [2:29:06, 214.97s/it][A
+Subject_Task: M001_T2: : 60it [2:29:06, 214.97s/it][A
+Subject_Task: M001_T2: : 61it [2:33:06, 222.69s/it][A
+Subject_Task: F011_T7: : 61it [2:33:06, 222.69s/it][A
+Subject_Task: F011_T7: : 62it [2:35:34, 200.32s/it][A
+Subject_Task: M013_T1: : 62it [2:35:34, 200.32s/it][A
+Subject_Task: M013_T1: : 63it [2:38:24, 191.03s/it][A
+Subject_Task: F007_T6: : 63it [2:38:24, 191.03s/it][A
+Subject_Task: F007_T6: : 64it [2:40:35, 173.22s/it][A
+Subject_Task: M009_T6: : 64it [2:40:35, 173.22s/it][A
+Subject_Task: M009_T6: : 65it [2:42:41, 158.87s/it][A
+Subject_Task: F014_T8: : 65it [2:42:41, 158.87s/it][A
+Subject_Task: F014_T8: : 66it [2:43:14, 121.03s/it][A
+Subject_Task: M017_T3: : 66it [2:43:14, 121.03s/it][A
+Subject_Task: M017_T3: : 67it [2:43:47, 94.90s/it] [A
+Subject_Task: F019_T3: : 67it [2:43:47, 94.90s/it][A
+Subject_Task: F019_T3: : 68it [2:44:31, 79.46s/it][A
+Subject_Task: F003_T4: : 68it [2:44:31, 79.46s/it][A
+Subject_Task: F003_T4: : 69it [2:48:46, 132.09s/it][A
+Subject_Task: F010_T7: : 69it [2:48:46, 132.09s/it][A
+Subject_Task: F010_T7: : 70it [2:53:03, 169.71s/it][A
+Subject_Task: F014_T5: : 70it [2:53:03, 169.71s/it][A
+Subject_Task: F014_T5: : 71it [2:55:42, 166.32s/it][A
+Subject_Task: F018_T3: : 71it [2:55:42, 166.32s/it][A
+Subject_Task: F018_T3: : 72it [2:56:20, 127.97s/it][A
+Subject_Task: M016_T3: : 72it [2:56:20, 127.97s/it][A
+Subject_Task: M016_T3: : 73it [2:57:13, 105.49s/it][A
+Subject_Task: F002_T4: : 73it [2:57:13, 105.49s/it][A
+Subject_Task: F002_T4: : 74it [3:02:51, 175.06s/it][A
+Subject_Task: F015_T8: : 74it [3:02:51, 175.06s/it][A
+Subject_Task: F015_T8: : 75it [3:03:18, 130.87s/it][A
+Subject_Task: M012_T1: : 75it [3:03:18, 130.87s/it][A
+Subject_Task: M012_T1: : 76it [3:05:59, 139.95s/it][A
+Subject_Task: M008_T6: : 76it [3:06:00, 139.95s/it][A
+Subject_Task: M008_T6: : 77it [3:10:19, 175.79s/it][A
+Subject_Task: F006_T6: : 77it [3:10:19, 175.79s/it][A
+Subject_Task: F006_T6: : 78it [3:12:19, 159.19s/it][A
+Subject_Task: F020_T6: : 78it [3:12:20, 159.19s/it][A
+Subject_Task: F020_T6: : 79it [3:15:26, 167.42s/it][A
+Subject_Task: M010_T7: : 79it [3:15:26, 167.42s/it][A
+Subject_Task: M010_T7: : 80it [3:16:36, 138.21s/it][A
+Subject_Task: M014_T5: : 80it [3:16:36, 138.21s/it][A
+Subject_Task: M014_T5: : 81it [3:19:22, 146.62s/it][A
+Subject_Task: M018_T3: : 81it [3:19:22, 146.62s/it][A
+Subject_Task: M018_T3: : 82it [3:20:01, 114.17s/it][A
+Subject_Task: F016_T3: : 82it [3:20:01, 114.17s/it][A
+Subject_Task: F016_T3: : 83it [3:20:42, 92.25s/it] [A
+Subject_Task: M002_T4: : 83it [3:20:42, 92.25s/it][A
+Subject_Task: M002_T4: : 84it [3:23:43, 118.84s/it][A
+Subject_Task: F012_T1: : 84it [3:23:43, 118.84s/it][A
+Subject_Task: F012_T1: : 85it [3:24:57, 105.38s/it][A
+Subject_Task: M006_T6: : 85it [3:24:57, 105.38s/it][A
+Subject_Task: M006_T6: : 86it [3:27:05, 112.32s/it][A
+Subject_Task: M015_T8: : 86it [3:27:05, 112.32s/it][A
+Subject_Task: M015_T8: : 87it [3:27:47, 91.16s/it] [A
+Subject_Task: F021_T6: : 87it [3:27:47, 91.16s/it][A
+Subject_Task: F021_T6: : 88it [3:28:40, 79.57s/it][A
+Subject_Task: M015_T5: : 88it [3:28:40, 79.57s/it][A
+Subject_Task: M015_T5: : 89it [3:32:04, 117.15s/it][A
+Subject_Task: F001_T2: : 89it [3:32:04, 117.15s/it][A
+Subject_Task: F001_T2: : 90it [3:35:29, 143.41s/it][A
+Subject_Task: M011_T7: : 90it [3:35:29, 143.41s/it][A
+Subject_Task: M011_T7: : 91it [3:40:12, 185.27s/it][A
+Subject_Task: M014_T8: : 91it [3:40:12, 185.27s/it][A
+Subject_Task: M014_T8: : 92it [3:40:39, 137.93s/it][A
+Subject_Task: F013_T1: : 92it [3:40:40, 137.93s/it][A
+Subject_Task: F013_T1: : 93it [3:42:53, 136.74s/it][A
+Subject_Task: M007_T6: : 93it [3:42:54, 136.74s/it][A
+Subject_Task: M007_T6: : 94it [3:46:46, 165.57s/it][A
+Subject_Task: F009_T6: : 94it [3:46:46, 165.57s/it][A
+Subject_Task: F009_T6: : 95it [3:51:16, 196.86s/it][A
+Subject_Task: F017_T3: : 95it [3:51:16, 196.86s/it][A
+Subject_Task: F017_T3: : 96it [3:52:22, 157.42s/it][A
+Subject_Task: M003_T4: : 96it [3:52:22, 157.42s/it][A
+Subject_Task: M003_T4: : 97it [3:52:47, 117.69s/it][A
+Subject_Task: F022_T6: : 97it [3:52:47, 117.69s/it][A
+Subject_Task: F022_T6: : 98it [3:53:45, 99.79s/it] [A
+Subject_Task: M004_T6: : 98it [3:53:45, 99.79s/it][A
+Subject_Task: M004_T6: : 99it [3:55:19, 98.13s/it][A
+Subject_Task: F010_T1: : 99it [3:55:19, 98.13s/it][A
+Subject_Task: F010_T1: : 100it [3:58:12, 120.53s/it][A
+Subject_Task: M017_T8: : 100it [3:58:12, 120.53s/it][A
+Subject_Task: M017_T8: : 101it [3:59:02, 99.44s/it] [A
+Subject_Task: F019_T8: : 101it [3:59:02, 99.44s/it][A
+Subject_Task: F019_T8: : 102it [4:00:10, 90.05s/it][A
+Subject_Task: F014_T3: : 102it [4:00:10, 90.05s/it][A
+Subject_Task: F014_T3: : 103it [4:01:31, 87.37s/it][A
+Subject_Task: F002_T2: : 103it [4:01:31, 87.37s/it][A
+Subject_Task: F002_T2: : 104it [4:09:26, 203.60s/it][A
+Subject_Task: M016_T5: : 104it [4:09:26, 203.60s/it][A
+Subject_Task: M016_T5: : 105it [4:15:32, 252.27s/it][A
+Subject_Task: F018_T5: : 105it [4:15:32, 252.27s/it][A
+Subject_Task: F018_T5: : 106it [4:23:39, 322.63s/it][A
+Subject_Task: M012_T7: : 106it [4:23:39, 322.63s/it][A
+Subject_Task: M012_T7: : 107it [4:36:28, 456.69s/it][A
+Subject_Task: F023_T6: : 107it [4:36:28, 456.69s/it][A
+Subject_Task: F023_T6: : 108it [4:43:33, 447.32s/it][A
+Subject_Task: M001_T4: : 108it [4:43:34, 447.32s/it][A
+Subject_Task: M001_T4: : 109it [4:50:19, 434.82s/it][A
+Subject_Task: F015_T3: : 109it [4:50:19, 434.82s/it][A
+Subject_Task: F015_T3: : 110it [4:52:13, 338.49s/it][A
+Subject_Task: F018_T8: : 110it [4:52:13, 338.49s/it][A
+Subject_Task: F018_T8: : 111it [4:53:42, 263.78s/it][A
+Subject_Task: M016_T8: : 111it [4:53:42, 263.78s/it][A
+Subject_Task: M016_T8: : 112it [4:56:01, 226.22s/it][A
+Subject_Task: M005_T6: : 112it [4:56:01, 226.22s/it][A
+Subject_Task: M005_T6: : 113it [5:01:18, 253.42s/it][A
+Subject_Task: F011_T1: : 113it [5:01:18, 253.42s/it][A
+Subject_Task: F011_T1: : 114it [5:06:03, 262.93s/it][A
+Subject_Task: M013_T7: : 114it [5:06:03, 262.93s/it][A
+Subject_Task: M013_T7: : 115it [5:18:22, 405.69s/it][A
+Subject_Task: F003_T2: : 115it [5:18:22, 405.69s/it][A
+Subject_Task: F003_T2: : 116it [5:26:23, 428.47s/it][A
+Subject_Task: F019_T5: : 116it [5:26:23, 428.47s/it][A
+Subject_Task: F019_T5: : 117it [5:33:14, 423.07s/it][A
+Subject_Task: M017_T5: : 117it [5:33:14, 423.07s/it][A
+Subject_Task: M017_T5: : 118it [5:38:08, 384.50s/it][A
+Subject_Task: F012_T3: : 118it [5:38:08, 384.50s/it][A
+Subject_Task: F012_T3: : 119it [5:39:49, 299.34s/it][A
+Subject_Task: M006_T4: : 119it [5:39:49, 299.34s/it][A
+Subject_Task: M006_T4: : 120it [5:41:56, 247.73s/it][A
+Subject_Task: F008_T4: : 120it [5:41:56, 247.73s/it][A
+Subject_Task: F008_T4: : 121it [5:50:03, 319.36s/it][A
+Subject_Task: M011_T8: : 121it [5:50:03, 319.36s/it][A
+Subject_Task: M011_T8: : 122it [5:51:36, 251.61s/it][A
+Subject_Task: F016_T1: : 122it [5:51:36, 251.61s/it][A
+Subject_Task: F016_T1: : 123it [5:56:37, 266.37s/it][A
+Subject_Task: M018_T1: : 123it [5:56:37, 266.37s/it][A
+Subject_Task: M018_T1: : 124it [6:05:31, 346.48s/it][A
+Subject_Task: M002_T6: : 124it [6:05:31, 346.48s/it][A
+Subject_Task: M002_T6: : 125it [6:10:15, 327.87s/it][A
+Subject_Task: M014_T7: : 125it [6:10:15, 327.87s/it][A
+Subject_Task: M014_T7: : 126it [6:23:48, 473.56s/it][A
+Subject_Task: M010_T5: : 126it [6:23:49, 473.56s/it][A
+Subject_Task: M010_T5: : 127it [6:31:13, 464.91s/it][A
+Subject_Task: F004_T2: : 127it [6:31:13, 464.91s/it][A
+Subject_Task: F004_T2: : 128it [6:40:17, 488.66s/it][A
+Subject_Task: F020_T4: : 128it [6:40:17, 488.66s/it][A
+Subject_Task: F020_T4: : 129it [6:47:39, 474.53s/it][A
+Subject_Task: F017_T1: : 129it [6:47:39, 474.53s/it][A
+Subject_Task: F017_T1: : 130it [6:53:31, 437.83s/it][A
+Subject_Task: M003_T6: : 130it [6:53:31, 437.83s/it][A
+Subject_Task: M003_T6: : 131it [6:54:09, 317.93s/it][A
+Subject_Task: M010_T8: : 131it [6:54:09, 317.93s/it][A
+Subject_Task: M010_T8: : 132it [6:55:02, 238.54s/it][A
+Subject_Task: F013_T3: : 132it [6:55:02, 238.54s/it][A
+Subject_Task: F013_T3: : 133it [6:56:55, 200.86s/it][A
+Subject_Task: F009_T4: : 133it [6:56:55, 200.86s/it][A
+Subject_Task: F009_T4: : 134it [7:03:46, 263.66s/it][A
+Subject_Task: M007_T4: : 134it [7:03:46, 263.66s/it][A
+Subject_Task: M007_T4: : 135it [7:11:46, 328.60s/it][A
+Subject_Task: M011_T5: : 135it [7:11:46, 328.60s/it][A
+Subject_Task: M011_T5: : 136it [7:17:18, 329.59s/it][A
+Subject_Task: F005_T2: : 136it [7:17:18, 329.59s/it][A
+Subject_Task: F005_T2: : 137it [7:26:10, 390.37s/it][A
+Subject_Task: M015_T7: : 137it [7:26:10, 390.37s/it][A
+Subject_Task: M015_T7: : 138it [7:29:30, 333.34s/it][A
+Subject_Task: F021_T4: : 138it [7:29:30, 333.34s/it][A
+Subject_Task: F021_T4: : 139it [7:34:01, 314.52s/it][A
+Subject_Task: M008_T2: : 139it [7:34:01, 314.52s/it][A
+Subject_Task: M008_T2: : 140it [7:39:31, 319.38s/it][A
+Subject_Task: F006_T2: : 140it [7:39:32, 319.38s/it][A
+Subject_Task: F006_T2: : 141it [7:44:59, 321.83s/it][A
+Subject_Task: M012_T5: : 141it [7:44:59, 321.83s/it][A
+Subject_Task: M012_T5: : 142it [7:49:09, 300.21s/it][A
+Subject_Task: F018_T7: : 142it [7:49:09, 300.21s/it][A
+Subject_Task: F018_T7: : 143it [7:57:25, 358.96s/it][A
+Subject_Task: M016_T7: : 143it [7:57:25, 358.96s/it][A
+Subject_Task: M016_T7: : 144it [8:02:53, 349.84s/it][A
+Subject_Task: M013_T8: : 144it [8:02:53, 349.84s/it][A
+Subject_Task: M013_T8: : 145it [8:04:04, 265.95s/it][A
+Subject_Task: F014_T1: : 145it [8:04:04, 265.95s/it][A
+Subject_Task: F014_T1: : 146it [8:07:12, 242.60s/it][A
+Subject_Task: M004_T4: : 146it [8:07:12, 242.60s/it][A
+Subject_Task: M004_T4: : 147it [8:13:22, 281.04s/it][A
+Subject_Task: F010_T3: : 147it [8:13:22, 281.04s/it][A
+Subject_Task: F010_T3: : 148it [8:14:46, 221.79s/it][A
+Subject_Task: F022_T4: : 148it [8:14:46, 221.79s/it][A
+Subject_Task: F022_T4: : 149it [8:18:29, 222.18s/it][A
+Subject_Task: M017_T7: : 149it [8:18:29, 222.18s/it][A
+Subject_Task: M017_T7: : 150it [8:22:29, 227.40s/it][A
+Subject_Task: F019_T7: : 150it [8:22:29, 227.40s/it][A
+Subject_Task: F019_T7: : 151it [8:27:48, 254.87s/it][A
+Subject_Task: F007_T2: : 151it [8:27:48, 254.87s/it][A
+Subject_Task: F007_T2: : 152it [8:32:06, 255.86s/it][A
+Subject_Task: M009_T2: : 152it [8:32:06, 255.86s/it][A
+Subject_Task: M009_T2: : 153it [8:36:41, 261.72s/it][A
+Subject_Task: M013_T5: : 153it [8:36:41, 261.72s/it][A
+Subject_Task: M013_T5: : 154it [8:39:32, 234.41s/it][A
+Subject_Task: M005_T4: : 154it [8:39:32, 234.41s/it][A
+Subject_Task: M005_T4: : 155it [8:43:33, 236.33s/it][A
+Subject_Task: F011_T3: : 155it [8:43:33, 236.33s/it][A
+Subject_Task: F011_T3: : 156it [8:44:31, 183.00s/it][A
+Subject_Task: M001_T6: : 156it [8:44:31, 183.00s/it][A
+Subject_Task: M001_T6: : 157it [8:47:05, 174.31s/it][A
+Subject_Task: F015_T1: : 157it [8:47:05, 174.31s/it][A
+Subject_Task: F015_T1: : 158it [8:53:07, 230.62s/it][A
+Subject_Task: M012_T8: : 158it [8:53:07, 230.62s/it][A
+Subject_Task: M012_T8: : 159it [8:54:13, 181.10s/it][A
+Subject_Task: F023_T4: : 159it [8:54:13, 181.10s/it][A
+Subject_Task: F023_T4: : 160it [9:00:00, 230.97s/it][A
+Subject_Task: F023_T7: : 160it [9:00:00, 230.97s/it][A
+Subject_Task: F023_T7: : 161it [9:06:33, 279.67s/it][A
+Subject_Task: F007_T1: : 161it [9:06:34, 279.67s/it][A
+Subject_Task: F007_T1: : 162it [9:10:32, 267.25s/it][A
+Subject_Task: M009_T1: : 162it [9:10:32, 267.25s/it][A
+Subject_Task: M009_T1: : 163it [9:12:38, 225.04s/it][A
+Subject_Task: M013_T6: : 163it [9:12:38, 225.04s/it][A
+Subject_Task: M013_T6: : 164it [9:15:27, 208.02s/it][A
+Subject_Task: F003_T3: : 164it [9:15:27, 208.02s/it][A
+Subject_Task: F003_T3: : 165it [9:16:18, 161.08s/it][A
+Subject_Task: M017_T4: : 165it [9:16:18, 161.08s/it][A
+Subject_Task: M017_T4: : 166it [9:18:59, 160.96s/it][A
+Subject_Task: F019_T4: : 166it [9:18:59, 160.96s/it][A
+Subject_Task: F019_T4: : 167it [9:22:17, 172.15s/it][A
+Subject_Task: M001_T5: : 167it [9:22:17, 172.15s/it][A
+Subject_Task: M001_T5: : 168it [9:24:50, 166.39s/it][A
+Subject_Task: F015_T2: : 168it [9:24:50, 166.39s/it][A
+Subject_Task: F015_T2: : 169it [9:29:28, 199.73s/it][A
+Subject_Task: M005_T7: : 169it [9:29:28, 199.73s/it][A
+Subject_Task: M005_T7: : 170it [9:34:46, 235.46s/it][A
+Subject_Task: F022_T7: : 170it [9:34:46, 235.46s/it][A
+Subject_Task: F022_T7: : 171it [9:40:10, 262.05s/it][A
+Subject_Task: F002_T3: : 171it [9:40:10, 262.05s/it][A
+Subject_Task: F002_T3: : 172it [9:40:59, 198.00s/it][A
+Subject_Task: F018_T4: : 172it [9:40:59, 198.00s/it][A
+Subject_Task: F018_T4: : 173it [9:44:30, 201.87s/it][A
+Subject_Task: M016_T4: : 173it [9:44:30, 201.87s/it][A
+Subject_Task: M016_T4: : 174it [9:47:52, 202.01s/it][A
+Subject_Task: M001_T8: : 174it [9:47:52, 202.01s/it][A
+Subject_Task: M001_T8: : 175it [9:49:01, 161.98s/it][A
+Subject_Task: M008_T1: : 175it [9:49:01, 161.98s/it][A
+Subject_Task: M008_T1: : 176it [9:51:00, 149.15s/it][A
+Subject_Task: F006_T1: : 176it [9:51:00, 149.15s/it][A
+Subject_Task: F006_T1: : 177it [9:53:44, 153.53s/it][A
+Subject_Task: M012_T6: : 177it [9:53:44, 153.53s/it][A
+Subject_Task: M012_T6: : 178it [9:59:36, 213.19s/it][A
+Subject_Task: M004_T7: : 178it [9:59:36, 213.19s/it][A
+Subject_Task: M004_T7: : 179it [10:03:43, 223.23s/it][A
+Subject_Task: F014_T2: : 179it [10:03:43, 223.23s/it][A
+Subject_Task: F014_T2: : 180it [10:07:20, 221.38s/it][A
+Subject_Task: F021_T7: : 180it [10:07:20, 221.38s/it][A
+Subject_Task: F021_T7: : 181it [10:11:22, 227.61s/it][A
+Subject_Task: F009_T7: : 181it [10:11:22, 227.61s/it][A
+Subject_Task: F009_T7: : 182it [10:15:52, 240.18s/it][A
+Subject_Task: M007_T7: : 182it [10:15:52, 240.18s/it][A
+Subject_Task: M007_T7: : 183it [10:20:13, 246.68s/it][A
+Subject_Task: F017_T2: : 183it [10:20:14, 246.68s/it][A
+Subject_Task: F017_T2: : 184it [10:24:59, 258.28s/it][A
+Subject_Task: M003_T5: : 184it [10:24:59, 258.28s/it][A
+Subject_Task: M003_T5: : 185it [10:26:45, 212.79s/it][A
+Subject_Task: M015_T4: : 185it [10:26:45, 212.79s/it][A
+Subject_Task: M015_T4: : 186it [10:30:05, 208.94s/it][A
+Subject_Task: F001_T3: : 186it [10:30:05, 208.94s/it][A
+Subject_Task: F001_T3: : 187it [10:30:54, 160.75s/it][A
+Subject_Task: M011_T6: : 187it [10:30:54, 160.75s/it][A
+Subject_Task: M011_T6: : 188it [10:35:19, 192.14s/it][A
+Subject_Task: F005_T1: : 188it [10:35:19, 192.14s/it][A
+Subject_Task: F005_T1: : 189it [10:39:32, 210.44s/it][A
+Subject_Task: M002_T8: : 189it [10:39:32, 210.44s/it][A
+Subject_Task: M002_T8: : 190it [10:41:36, 184.42s/it][A
+Subject_Task: F020_T7: : 190it [10:41:36, 184.42s/it][A
+Subject_Task: F020_T7: : 191it [10:46:59, 226.08s/it][A
+Subject_Task: F016_T2: : 191it [10:46:59, 226.08s/it][A
+Subject_Task: F016_T2: : 192it [10:51:57, 247.45s/it][A
+Subject_Task: M018_T2: : 192it [10:51:57, 247.45s/it][A
+Subject_Task: M018_T2: : 193it [10:57:00, 264.12s/it][A
+Subject_Task: M002_T5: : 193it [10:57:00, 264.12s/it][A
+Subject_Task: M002_T5: : 194it [11:01:14, 261.09s/it][A
+Subject_Task: M006_T7: : 194it [11:01:14, 261.09s/it][A
+Subject_Task: M006_T7: : 195it [11:03:53, 230.74s/it][A
+Subject_Task: F008_T7: : 195it [11:03:54, 230.74s/it][A
+Subject_Task: F008_T7: : 196it [11:08:38, 246.83s/it][A
+Subject_Task: M003_T8: : 196it [11:08:38, 246.83s/it][A
+Subject_Task: M003_T8: : 197it [11:08:48, 175.84s/it][A
+Subject_Task: M010_T6: : 197it [11:08:48, 175.84s/it][A
+Subject_Task: M010_T6: : 198it [11:11:40, 174.72s/it][A
+Subject_Task: F004_T1: : 198it [11:11:40, 174.72s/it][A
+Subject_Task: F004_T1: : 199it [11:15:34, 192.57s/it][A
+Subject_Task: M014_T4: : 199it [11:15:34, 192.57s/it][A
+Subject_Task: M014_T4: : 200it [11:20:16, 219.19s/it][A
+Subject_Task: M005_T5: : 200it [11:20:16, 219.19s/it][A
+Subject_Task: M005_T5: : 201it [11:24:40, 232.81s/it][A
+Subject_Task: F011_T2: : 201it [11:24:40, 232.81s/it][A
+Subject_Task: F011_T2: : 202it [11:30:38, 270.27s/it][A
+Subject_Task: M001_T7: : 202it [11:30:38, 270.27s/it][A
+Subject_Task: M001_T7: : 203it [11:35:05, 269.24s/it][A
+Subject_Task: M004_T8: : 203it [11:35:05, 269.24s/it][A
+Subject_Task: M004_T8: : 204it [11:35:44, 200.21s/it][A
+Subject_Task: F003_T1: : 204it [11:35:44, 200.21s/it][A
+Subject_Task: F003_T1: : 205it [11:42:07, 255.01s/it][A
+Subject_Task: F019_T6: : 205it [11:42:07, 255.01s/it][A
+Subject_Task: F019_T6: : 206it [11:44:11, 215.79s/it][A
+Subject_Task: M017_T6: : 206it [11:44:11, 215.79s/it][A
+Subject_Task: M017_T6: : 207it [11:49:05, 239.17s/it][A
+Subject_Task: M009_T3: : 207it [11:49:05, 239.17s/it][A
+Subject_Task: M009_T3: : 208it [11:49:46, 179.92s/it][A
+Subject_Task: F007_T3: : 208it [11:49:46, 179.92s/it][A
+Subject_Task: F007_T3: : 209it [11:50:51, 145.19s/it][A
+Subject_Task: M013_T4: : 209it [11:50:51, 145.19s/it][A
+Subject_Task: M013_T4: : 210it [11:54:17, 163.46s/it][A
+Subject_Task: F022_T8: : 210it [11:54:17, 163.46s/it][A
+Subject_Task: F022_T8: : 211it [11:55:40, 139.50s/it][A
+Subject_Task: F023_T5: : 211it [11:55:40, 139.50s/it][A
+Subject_Task: F023_T5: : 212it [11:59:08, 159.83s/it][A
+Subject_Task: M004_T5: : 212it [11:59:08, 159.83s/it][A
+Subject_Task: M004_T5: : 213it [12:01:44, 158.67s/it][A
+Subject_Task: F010_T2: : 213it [12:01:44, 158.67s/it][A
+Subject_Task: F010_T2: : 214it [12:07:07, 208.16s/it][A
+Subject_Task: F006_T3: : 214it [12:07:07, 208.16s/it][A
+Subject_Task: F006_T3: : 215it [12:08:25, 169.09s/it][A
+Subject_Task: M008_T3: : 215it [12:08:25, 169.09s/it][A
+Subject_Task: M008_T3: : 216it [12:09:20, 134.75s/it][A
+Subject_Task: M012_T4: : 216it [12:09:20, 134.75s/it][A
+Subject_Task: M012_T4: : 217it [12:13:24, 167.71s/it][A
+Subject_Task: F002_T1: : 217it [12:13:24, 167.71s/it][A
+Subject_Task: F002_T1: : 218it [12:17:22, 188.78s/it][A
+Subject_Task: M016_T6: : 218it [12:17:22, 188.78s/it][A
+Subject_Task: M016_T6: : 219it [12:20:51, 194.88s/it][A
+Subject_Task: F018_T6: : 219it [12:20:52, 194.88s/it][A
+Subject_Task: F018_T6: : 220it [12:24:44, 206.06s/it][A
+Subject_Task: M005_T8: : 220it [12:24:44, 206.06s/it][A
+Subject_Task: M005_T8: : 221it [12:25:06, 150.91s/it][A
+Subject_Task: F023_T8: : 221it [12:25:06, 150.91s/it][A
+Subject_Task: F023_T8: : 222it [12:26:25, 129.45s/it][A
+Subject_Task: F022_T5: : 222it [12:26:25, 129.45s/it][A
+Subject_Task: F022_T5: : 223it [12:30:14, 159.33s/it][A
+Subject_Task: M011_T4: : 223it [12:30:14, 159.33s/it][A
+Subject_Task: M011_T4: : 224it [12:32:57, 160.24s/it][A
+Subject_Task: F005_T3: : 224it [12:32:57, 160.24s/it][A
+Subject_Task: F005_T3: : 225it [12:33:35, 123.56s/it][A
+Subject_Task: M006_T8: : 225it [12:33:35, 123.56s/it][A
+Subject_Task: M006_T8: : 226it [12:35:13, 116.08s/it][A
+Subject_Task: F008_T8: : 226it [12:35:13, 116.08s/it][A
+Subject_Task: F008_T8: : 227it [12:36:31, 104.65s/it][A
+Subject_Task: M015_T6: : 227it [12:36:31, 104.65s/it][A
+Subject_Task: M015_T6: : 228it [12:37:24, 89.02s/it] [A
+Subject_Task: F001_T1: : 228it [12:37:24, 89.02s/it][A
+Subject_Task: F001_T1: : 229it [12:45:20, 205.20s/it][A
+Subject_Task: M003_T7: : 229it [12:45:20, 205.20s/it][A
+Subject_Task: M003_T7: : 230it [12:45:43, 150.56s/it][A
+Subject_Task: F013_T2: : 230it [12:45:43, 150.56s/it][A
+Subject_Task: F013_T2: : 231it [12:50:11, 185.64s/it][A
+Subject_Task: M007_T5: : 231it [12:50:11, 185.64s/it][A
+Subject_Task: M007_T5: : 232it [12:52:58, 180.23s/it][A
+Subject_Task: F009_T5: : 232it [12:52:58, 180.23s/it][A
+Subject_Task: F009_T5: : 233it [12:56:17, 185.91s/it][A
+Subject_Task: F021_T5: : 233it [12:56:17, 185.91s/it][A
+Subject_Task: F021_T5: : 234it [12:59:17, 184.06s/it][A
+Subject_Task: F020_T8: : 234it [12:59:17, 184.06s/it][A
+Subject_Task: F020_T8: : 235it [13:00:21, 148.11s/it][A
+Subject_Task: M014_T6: : 235it [13:00:21, 148.11s/it][A
+Subject_Task: M014_T6: : 236it [13:05:16, 192.15s/it][A
+Subject_Task: F009_T8: : 236it [13:05:16, 192.15s/it][A
+Subject_Task: F009_T8: : 237it [13:05:49, 144.37s/it][A
+Subject_Task: M007_T8: : 237it [13:05:49, 144.37s/it][A
+Subject_Task: M007_T8: : 238it [13:07:58, 139.74s/it][A
+Subject_Task: M010_T4: : 238it [13:07:58, 139.74s/it][A
+Subject_Task: M010_T4: : 239it [13:15:25, 232.04s/it][A
+Subject_Task: F004_T3: : 239it [13:15:25, 232.04s/it][A
+Subject_Task: F004_T3: : 240it [13:16:35, 183.45s/it][A
+Subject_Task: F012_T2: : 240it [13:16:36, 183.45s/it][A
+Subject_Task: F012_T2: : 241it [13:21:31, 217.07s/it][A
+Subject_Task: M006_T5: : 241it [13:21:31, 217.07s/it][A
+Subject_Task: M006_T5: : 242it [13:22:54, 176.96s/it][A
+Subject_Task: M002_T7: : 242it [13:22:54, 176.96s/it][A
+Subject_Task: M002_T7: : 243it [13:26:13, 183.58s/it][A
+Subject_Task: F020_T5: : 243it [13:26:13, 183.58s/it][A
+Subject_Task: F020_T5: : 244it [13:30:06, 198.25s/it][A
+Subject_Task: F021_T8: : 244it [13:30:06, 198.25s/it][A
+Subject_Task: F021_T8: : 245it [13:31:15, 159.64s/it][A
+Subject_Task: M009_T8: : 245it [13:31:15, 159.64s/it][A
+Subject_Task: M009_T8: : 246it [13:31:35, 117.76s/it][A
+Subject_Task: F007_T8: : 246it [13:31:35, 117.76s/it][A
+Subject_Task: F007_T8: : 247it [13:32:15, 94.40s/it] [A
+Subject_Task: F014_T6: : 247it [13:32:15, 94.40s/it][A
+Subject_Task: F014_T6: : 248it [13:34:52, 112.93s/it][A
+Subject_Task: F010_T4: : 248it [13:34:52, 112.93s/it][A
+Subject_Task: F010_T4: : 249it [13:38:03, 136.47s/it][A
+Subject_Task: M004_T3: : 249it [13:38:03, 136.47s/it][A
+Subject_Task: M004_T3: : 250it [13:39:05, 114.15s/it][A
+Subject_Task: M012_T2: : 250it [13:39:05, 114.15s/it][A
+Subject_Task: M012_T2: : 251it [13:44:55, 185.03s/it][A
+Subject_Task: M008_T5: : 251it [13:44:55, 185.03s/it][A
+Subject_Task: M008_T5: : 252it [13:49:04, 204.09s/it][A
+Subject_Task: F006_T5: : 252it [13:49:04, 204.09s/it][A
+Subject_Task: F006_T5: : 253it [13:54:07, 233.74s/it][A
+Subject_Task: F002_T7: : 253it [13:54:07, 233.74s/it][A
+Subject_Task: F002_T7: : 254it [13:58:50, 248.64s/it][A
+Subject_Task: F022_T3: : 254it [13:58:50, 248.64s/it][A
+Subject_Task: F022_T3: : 255it [13:59:41, 189.33s/it][A
+Subject_Task: F011_T4: : 255it [13:59:41, 189.33s/it][A
+Subject_Task: F011_T4: : 256it [14:03:03, 193.21s/it][A
+Subject_Task: M005_T3: : 256it [14:03:04, 193.21s/it][A
+Subject_Task: M005_T3: : 257it [14:03:46, 147.89s/it][A
+Subject_Task: F015_T6: : 257it [14:03:46, 147.89s/it][A
+Subject_Task: F015_T6: : 258it [14:07:44, 175.17s/it][A
+Subject_Task: M001_T1: : 258it [14:07:45, 175.17s/it][A
+Subject_Task: M001_T1: : 259it [14:11:32, 191.03s/it][A
+Subject_Task: F006_T8: : 259it [14:11:33, 191.03s/it][A
+Subject_Task: F006_T8: : 260it [14:12:23, 148.93s/it][A
+Subject_Task: M008_T8: : 260it [14:12:23, 148.93s/it][A
+Subject_Task: M008_T8: : 261it [14:12:44, 110.56s/it][A
+Subject_Task: F003_T7: : 261it [14:12:44, 110.56s/it][A
+Subject_Task: F003_T7: : 262it [14:15:46, 131.83s/it][A
+Subject_Task: M013_T2: : 262it [14:15:46, 131.83s/it][A
+Subject_Task: M013_T2: : 263it [14:20:46, 182.37s/it][A
+Subject_Task: F007_T5: : 263it [14:20:46, 182.37s/it][A
+Subject_Task: F007_T5: : 264it [14:24:09, 188.55s/it][A
+Subject_Task: M009_T5: : 264it [14:24:09, 188.55s/it][A
+Subject_Task: M009_T5: : 265it [14:28:23, 208.26s/it][A
+Subject_Task: F023_T3: : 265it [14:28:23, 208.26s/it][A
+Subject_Task: F023_T3: : 266it [14:29:28, 165.36s/it][A
+Subject_Task: F004_T5: : 266it [14:29:29, 165.36s/it][A
+Subject_Task: F004_T5: : 267it [14:33:52, 194.85s/it][A
+Subject_Task: M010_T2: : 267it [14:33:52, 194.85s/it][A
+Subject_Task: M010_T2: : 268it [14:39:46, 242.67s/it][A
+Subject_Task: M006_T3: : 268it [14:39:46, 242.67s/it][A
+Subject_Task: M006_T3: : 269it [14:40:09, 176.74s/it][A
+Subject_Task: F008_T3: : 269it [14:40:09, 176.74s/it][A
+Subject_Task: F008_T3: : 270it [14:41:27, 147.12s/it][A
+Subject_Task: F012_T4: : 270it [14:41:27, 147.12s/it][A
+Subject_Task: F012_T4: : 271it [14:45:12, 170.47s/it][A
+Subject_Task: F005_T8: : 271it [14:45:12, 170.47s/it][A
+Subject_Task: F005_T8: : 272it [14:47:23, 158.59s/it][A
+Subject_Task: M002_T1: : 272it [14:47:23, 158.59s/it][A
+Subject_Task: M002_T1: : 273it [14:52:30, 203.04s/it][A
+Subject_Task: F016_T6: : 273it [14:52:30, 203.04s/it][A
+Subject_Task: F016_T6: : 274it [14:57:00, 223.09s/it][A
+Subject_Task: M018_T6: : 274it [14:57:00, 223.09s/it][A
+Subject_Task: M018_T6: : 275it [15:00:57, 227.50s/it][A
+Subject_Task: F020_T3: : 275it [15:00:58, 227.50s/it][A
+Subject_Task: F020_T3: : 276it [15:01:58, 177.26s/it][A
+Subject_Task: F005_T5: : 276it [15:01:58, 177.26s/it][A
+Subject_Task: F005_T5: : 277it [15:05:58, 196.27s/it][A
+Subject_Task: M011_T2: : 277it [15:05:58, 196.27s/it][A
+Subject_Task: M011_T2: : 278it [15:10:32, 219.69s/it][A
+Subject_Task: F001_T7: : 278it [15:10:33, 219.69s/it][A
+Subject_Task: F001_T7: : 279it [15:14:07, 218.26s/it][A
+Subject_Task: M003_T1: : 279it [15:14:07, 218.26s/it][A
+Subject_Task: M003_T1: : 280it [15:14:45, 164.03s/it][A
+Subject_Task: F017_T6: : 280it [15:14:45, 164.03s/it][A
+Subject_Task: F017_T6: : 281it [15:18:23, 180.33s/it][A
+Subject_Task: F004_T8: : 281it [15:18:23, 180.33s/it][A
+Subject_Task: F004_T8: : 282it [15:19:23, 144.23s/it][A
+Subject_Task: F009_T3: : 282it [15:19:23, 144.23s/it][A
+Subject_Task: F009_T3: : 283it [15:20:19, 117.61s/it][A
+Subject_Task: M007_T3: : 283it [15:20:19, 117.61s/it][A
+Subject_Task: M007_T3: : 284it [15:21:09, 97.38s/it] [A
+Subject_Task: F013_T4: : 284it [15:21:09, 97.38s/it][A
+Subject_Task: F013_T4: : 285it [15:24:41, 131.81s/it][A
+Subject_Task: F021_T3: : 285it [15:24:41, 131.81s/it][A
+Subject_Task: F021_T3: : 286it [15:25:22, 104.65s/it][A
+Subject_Task: F022_T1: : 286it [15:25:22, 104.65s/it][A
+Subject_Task: F022_T1: : 287it [15:30:01, 156.73s/it][A
+Subject_Task: M016_T2: : 287it [15:30:01, 156.73s/it][A
+Subject_Task: M016_T2: : 288it [15:34:20, 187.65s/it][A
+Subject_Task: F018_T2: : 288it [15:34:21, 187.65s/it][A
+Subject_Task: F018_T2: : 289it [15:38:36, 208.15s/it][A
+Subject_Task: F002_T5: : 289it [15:38:36, 208.15s/it][A
+Subject_Task: F002_T5: : 290it [15:41:36, 199.48s/it][A
+Subject_Task: F006_T7: : 290it [15:41:36, 199.48s/it][A
+Subject_Task: F006_T7: : 291it [15:44:37, 194.19s/it][A
+Subject_Task: M008_T7: : 291it [15:44:38, 194.19s/it][A
+Subject_Task: M008_T7: : 292it [15:49:04, 215.77s/it][A
+Subject_Task: F010_T6: : 292it [15:49:04, 215.77s/it][A
+Subject_Task: F010_T6: : 293it [15:53:02, 222.48s/it][A
+Subject_Task: M004_T1: : 293it [15:53:02, 222.48s/it][A
+Subject_Task: M004_T1: : 294it [15:54:56, 189.98s/it][A
+Subject_Task: F003_T8: : 294it [15:54:56, 189.98s/it][A
+Subject_Task: F003_T8: : 295it [15:57:26, 177.99s/it][A
+Subject_Task: F014_T4: : 295it [15:57:26, 177.99s/it][A
+Subject_Task: F014_T4: : 296it [15:59:24, 160.10s/it][A
+Subject_Task: F023_T1: : 296it [15:59:24, 160.10s/it][A
+Subject_Task: F023_T1: : 297it [16:00:56, 139.55s/it][A
+Subject_Task: M009_T7: : 297it [16:00:56, 139.55s/it][A
+Subject_Task: M009_T7: : 298it [16:05:07, 173.13s/it][A
+Subject_Task: F007_T7: : 298it [16:05:07, 173.13s/it][A
+Subject_Task: F007_T7: : 299it [16:10:04, 210.11s/it][A
+Subject_Task: M017_T2: : 299it [16:10:04, 210.11s/it][A
+Subject_Task: M017_T2: : 300it [16:14:01, 218.28s/it][A
+Subject_Task: F003_T5: : 300it [16:14:01, 218.28s/it][A
+Subject_Task: F003_T5: : 301it [16:17:41, 218.79s/it][A
+Subject_Task: F015_T4: : 301it [16:17:41, 218.79s/it][A
+Subject_Task: F015_T4: : 302it [16:23:19, 254.56s/it][A
+Subject_Task: M001_T3: : 302it [16:23:19, 254.56s/it][A
+Subject_Task: M001_T3: : 303it [16:24:05, 191.91s/it][A
+Subject_Task: F002_T8: : 303it [16:24:05, 191.91s/it][A
+Subject_Task: F002_T8: : 304it [16:27:47, 201.14s/it][A
+Subject_Task: F011_T6: : 304it [16:27:48, 201.14s/it][A
+Subject_Task: F011_T6: : 305it [16:30:03, 181.44s/it][A
+Subject_Task: M005_T1: : 305it [16:30:03, 181.44s/it][A
+Subject_Task: M005_T1: : 306it [16:32:12, 165.76s/it][A
+Subject_Task: F020_T1: : 306it [16:32:12, 165.76s/it][A
+Subject_Task: F020_T1: : 307it [16:36:07, 186.37s/it][A
+Subject_Task: M002_T3: : 307it [16:36:07, 186.37s/it][A
+Subject_Task: M002_T3: : 308it [16:36:53, 144.30s/it][A
+Subject_Task: M018_T4: : 308it [16:36:53, 144.30s/it][A
+Subject_Task: M018_T4: : 309it [16:41:55, 191.68s/it][A
+Subject_Task: F016_T4: : 309it [16:41:55, 191.68s/it][A
+Subject_Task: F016_T4: : 310it [16:48:20, 249.68s/it][A
+Subject_Task: F008_T1: : 310it [16:48:20, 249.68s/it][A
+Subject_Task: F008_T1: : 311it [16:50:55, 221.31s/it][A
+Subject_Task: M006_T1: : 311it [16:50:55, 221.31s/it][A
+Subject_Task: M006_T1: : 312it [16:52:35, 184.83s/it][A
+Subject_Task: F012_T6: : 312it [16:52:35, 184.83s/it][A
+Subject_Task: F012_T6: : 313it [16:55:38, 184.20s/it][A
+Subject_Task: F001_T8: : 313it [16:55:38, 184.20s/it][A
+Subject_Task: F001_T8: : 314it [16:57:38, 165.05s/it][A
+Subject_Task: F004_T7: : 314it [16:57:38, 165.05s/it][A
+Subject_Task: F004_T7: : 315it [17:04:06, 232.09s/it][A
+Subject_Task: M014_T2: : 315it [17:04:07, 232.09s/it][A
+Subject_Task: M014_T2: : 316it [17:08:25, 239.99s/it][A
+Subject_Task: F021_T1: : 316it [17:08:25, 239.99s/it][A
+Subject_Task: F021_T1: : 317it [17:09:55, 194.90s/it][A
+Subject_Task: M007_T1: : 317it [17:09:55, 194.90s/it][A
+Subject_Task: M007_T1: : 318it [17:11:56, 172.93s/it][A
+Subject_Task: F009_T1: : 318it [17:11:56, 172.93s/it][A
+Subject_Task: F009_T1: : 319it [17:14:54, 174.50s/it][A
+Subject_Task: F013_T6: : 319it [17:14:54, 174.50s/it][A
+Subject_Task: F013_T6: : 320it [17:19:37, 206.98s/it][A
+Subject_Task: M003_T3: : 320it [17:19:37, 206.98s/it][A
+Subject_Task: M003_T3: : 321it [17:19:52, 149.33s/it][A
+Subject_Task: F017_T4: : 321it [17:19:52, 149.33s/it][A
+Subject_Task: F017_T4: : 322it [17:23:16, 165.73s/it][A
+Subject_Task: F001_T5: : 322it [17:23:16, 165.73s/it][A
+Subject_Task: F001_T5: : 323it [17:27:24, 190.45s/it][A
+Subject_Task: M015_T2: : 323it [17:27:24, 190.45s/it][A
+Subject_Task: M015_T2: : 324it [17:31:23, 204.93s/it][A
+Subject_Task: F005_T7: : 324it [17:31:23, 204.93s/it][A
+Subject_Task: F005_T7: : 325it [17:34:38, 202.02s/it][ASubject_Task: F005_T7: : 325it [17:34:38, 194.70s/it]

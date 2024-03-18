@@ -1,0 +1,26 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]ic| meta: ['F017_T7']
+ic| meta: ['M007_T2']
+ic| meta: ['F009_T2']
+ic| meta: ['F013_T5']
+ic| meta: ['F005_T4']
+ic| meta: ['M011_T3']
+ic| meta: ['F012_T8']
+ic| meta: ['F001_T6']
+ic| meta: ['M015_T1']
+ic| meta: ['F021_T2']
+F017_T7
+M007_T2
+F009_T2
+F013_T5
+F005_T4
+M011_T3
+F012_T8
+F001_T6
+M015_T1
+F021_T2
+F008_T2
+ic| meta: ['F008_T2']
+  0%|          | 0/1 [00:04<?, ?it/s]

@@ -1,0 +1,71 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]ic| len(openface): 325
+ic| len(openface): 325
+ic| video.size(): torch.Size([1, 3, 1485, 112, 112])
+ic| len(openface): 325
+DATASET:
+  CLIP_LGT: 16
+  IMG_SIZE: 112
+  NUM_WORKERS: 1
+  SPLIT: SUBJECT
+  WDS_CHUNKS: 1
+PATHS:
+  OFROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/openface
+  PROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/pickles
+  ROOT: /data/scanavan/BP4D/Sequences
+  TARROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/tars
+TEST:
+  FOLD: 1
+TRAINING:
+  BATCH_SIZE: 1
+  DISTRIBUTED: False
+  FEATS: 0
+  ITER: 1
+  LR: 0.0001
+  MODEL: ELASTIC
+  WT_DECAY: 1e-05
+DATASET:
+  CLIP_LGT: 16
+  IMG_SIZE: 112
+  NUM_WORKERS: 1
+  SPLIT: SUBJECT
+  WDS_CHUNKS: 1
+PATHS:
+  OFROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/openface
+  PROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/pickles
+  ROOT: /data/scanavan/BP4D/Sequences
+  TARROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/tars
+TEST:
+  FOLD: 1
+TRAINING:
+  BATCH_SIZE: 1
+  DISTRIBUTED: False
+  FEATS: 0
+  ITER: 1
+  LR: 0.0001
+  MODEL: ELASTIC
+  WT_DECAY: 1e-05
+DATASET:
+  CLIP_LGT: 16
+  IMG_SIZE: 112
+  NUM_WORKERS: 1
+  SPLIT: SUBJECT
+  WDS_CHUNKS: 1
+PATHS:
+  OFROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/openface
+  PROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/pickles
+  ROOT: /data/scanavan/BP4D/Sequences
+  TARROOT: /data/saandeepaath/create_bp4d_chips/data/BP4D/tars
+TEST:
+  FOLD: 1
+TRAINING:
+  BATCH_SIZE: 1
+  DISTRIBUTED: False
+  FEATS: 0
+  ITER: 1
+  LR: 0.0001
+  MODEL: ELASTIC
+  WT_DECAY: 1e-05
+  0%|          | 0/1 [00:02<?, ?it/s]

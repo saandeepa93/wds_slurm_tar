@@ -1,0 +1,7 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 5, in <module>
+    from imports import * 
+ModuleNotFoundError: No module named 'imports'
+srun: error: GPU13: task 0: Exited with exit code 1

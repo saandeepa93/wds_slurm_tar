@@ -1,0 +1,8 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 33, in <module>
+    dataset = BP4D()
+TypeError: __init__() missing 1 required positional argument: 'cfg'
+srun: error: GPU13: task 0: Exited with exit code 1

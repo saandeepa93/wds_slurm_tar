@@ -1,0 +1,6 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+slurmstepd: error: *** JOB 154448 ON GPU15 CANCELLED AT 2024-03-17T09:45:49 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 154448.0 ON GPU15 CANCELLED AT 2024-03-17T09:45:49 ***
+srun: error: GPU15: task 0: Terminated

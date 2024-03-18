@@ -1,0 +1,9 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_webds.py", line 22, in <module>
+    from imports import * 
+  File "/data/saandeepaath/create_bp4d_chips/./imports.py", line 4, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+srun: error: GPU15: task 0: Exited with exit code 1

@@ -1,0 +1,4 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+ic| meta_content: 'M001_T7'
+GPU:  True

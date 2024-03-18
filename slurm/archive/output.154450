@@ -1,0 +1,18 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_wds.py", line 163, in <module>
+    BP4DTars(cfg, "train")
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 94, in __init__
+    self._getAllFiles()
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 97, in _getAllFiles
+    files = tarfile.open(self.cfg.PATHS.TARROOT, 'r:tar')
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/tarfile.py", line 1810, in open
+    return func(name, filemode, fileobj, **kwargs)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/tarfile.py", line 1840, in taropen
+    return cls(name, mode, fileobj, **kwargs)
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/tarfile.py", line 1655, in __init__
+    fileobj = bltn_open(name, self._mode)
+IsADirectoryError: [Errno 21] Is a directory: '/data/saandeepaath/create_bp4d_chips/data/BP4D/tars'
+srun: error: GPU15: task 0: Exited with exit code 1

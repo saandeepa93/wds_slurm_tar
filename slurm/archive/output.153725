@@ -1,0 +1,20 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/extract_chips.py", line 37, in <module>
+    for _ in loader:
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/s/saandeepaath/.conda/envs/webds/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 80, in __getitem__
+    images = self._loadFrames(fpaths)
+  File "/data/saandeepaath/create_bp4d_chips/./dataset.py", line 53, in _loadFrames
+    for fpath, bbox in fpaths:
+ValueError: too many values to unpack (expected 2)
+srun: error: GPU13: task 0: Exited with exit code 1

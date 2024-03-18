@@ -1,0 +1,4 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+GPU:  False
+torch.Size([3, 1485, 112, 112])

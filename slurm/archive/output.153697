@@ -1,0 +1,8 @@
+NODELIST=GPU13
+MASTER_ADDR=GPU13
+/data/saandeepaath/create_bp4d_chips/./face_alignment/mtcnn_pytorch/src/align_trans.py:287: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if align_type is 'cv2_affine':
+/data/saandeepaath/create_bp4d_chips/./face_alignment/mtcnn_pytorch/src/align_trans.py:290: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif align_type is 'affine':
+ic| subject_task: '/data/saandeepaath/create_bp4d_chips/data/pickles/F017_T7.pickle'
+GPU:  False

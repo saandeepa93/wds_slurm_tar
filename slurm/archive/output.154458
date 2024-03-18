@@ -1,0 +1,8 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+Traceback (most recent call last):
+  File "/data/saandeepaath/create_bp4d_chips/./trainer/train_wds.py", line 161, in <module>
+    openface_dict = BP4DTars(cfg, "train")
+TypeError: __init__() should return None, not 'dict'
+srun: error: GPU15: task 0: Exited with exit code 1

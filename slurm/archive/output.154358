@@ -1,0 +1,34 @@
+NODELIST=GPU15
+MASTER_ADDR=GPU15
+GPU:  True
+  0%|          | 0/1 [00:00<?, ?it/s]ic| video.size(): torch.Size([1, 3, 1485, 112, 112])
+    meta: ['F017_T7']
+ic| video.size(): torch.Size([1, 3, 1597, 112, 112])
+    meta: ['M007_T2']
+ic| video.size(): torch.Size([1, 3, 1628, 112, 112])
+    meta: ['F009_T2']
+ic| video.size(): torch.Size([1, 3, 1519, 112, 112])
+    meta: ['F013_T5']
+ic| video.size(): torch.Size([1, 3, 1728, 112, 112])
+    meta: ['F005_T4']
+ic| video.size(): torch.Size([1, 3, 295, 112, 112]), meta: ['M011_T3']
+ic| video.size(): torch.Size([1, 3, 220, 112, 112]), meta: ['F012_T8']
+ic| video.size(): torch.Size([1, 3, 494, 112, 112]), meta: ['F001_T6']
+ic| video.size(): torch.Size([1, 3, 1469, 112, 112])
+    meta: ['M015_T1']
+ic| video.size(): torch.Size([1, 3, 1614, 112, 112])
+    meta: ['F021_T2']
+F017_T7
+M007_T2
+F009_T2
+F013_T5
+F005_T4
+M011_T3
+F012_T8
+F001_T6
+M015_T1
+F021_T2
+F008_T2
+ic| video.size(): torch.Size([1, 3, 1598, 112, 112])
+    meta: ['F008_T2']
+  0%|          | 0/1 [00:04<?, ?it/s]
